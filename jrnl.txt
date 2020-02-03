@@ -10,3 +10,16 @@ I did spend the morning:
 -yesterday I answered questions on U&L about grub, and provided the ever important
 "how to exit vi" information: https://unix.stackexchange.com/questions/549384/grub-bootloader-not-loading/565425#565425
 -exit vi esc, :wq or q! to not save (probably for a config file read/change mind)
+-test to see different
+Wow I need a breath  of fresh air, big findings now @ 1:45PM
+-iptables blocked my nc requests, I discovered this by creating 2 Cent VMs and trying to connect.
+-3rd sent tried to nc to 2nd Cent but recieved the msg "No route" which gave me something to ggl
+-then discoverd via U&L stack, iptables were the culprit, and before with Pop & Ubu they were
+just being plain dropped! No polite ICMP msg lol
+-now before changing iptable rules I thought I'd get 3rd Cent to nmap 2nd just to see.
+-I accidentily created a redundant folder, so when through the painstaking process of
+navigating up the directory: cd ~/Documents/Emacs then mv (because rn didn't work, rename?)
+so I mv old new directory.
+-however, the trick was here in saving the file I once had in the old repositiory I had to c-x c-w
+meaning write, and overwrite the existing file which was fine b/c it was the same data plus new
+entries here.

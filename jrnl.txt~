@@ -1,0 +1,12 @@
+2.3.20
+Just a historical record keeping and reflection of my journey through the stack exchange forums.
+Each day will be different, so will be identified next to the date.
+Today, I'm testing the ability to journal within emacs, while managing file navigation and git.
+I did spend the morning:
+-troubleshooting ncat on CentOS, Ubuntu, and PopOS via VirtualBox
+-answering a question about the need to attach an iso file to Connector: IDE
+-learning about boot code in an iso file, and the corresponding folders/files/drivers/executables
+-7 Zip will allow you to extract those files form an iso "image"
+-yesterday I answered questions on U&L about grub, and provided the ever important
+"how to exit vi" information: https://unix.stackexchange.com/questions/549384/grub-bootloader-not-loading/565425#565425
+-exit vi esc, :wq or q! to not save (probably for a config file read/change mind)

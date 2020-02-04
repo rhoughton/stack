@@ -23,3 +23,14 @@ so I mv old new directory.
 -however, the trick was here in saving the file I once had in the old repositiory I had to c-x c-w
 meaning write, and overwrite the existing file which was fine b/c it was the same data plus new
 entries here.
+-one of my learned assumptions today: by moving the iso file to another folder, my old vm
+that relied on the file STILL worked! Then the new vm worked, yet couldn't accept the old file
+path? That's ...buggy? Should I fix that? It's all about the "state" I think of the iso file
+though that doesn't change! So it must not be a bug it's intended to keep the user from
+confusing themselves.
+2/4/20
+-use sudo apt install speedtest-cli for a quick command line check of your internet speed
+-day 1 speedtest output: 16Mbits down 8am
+-also changed my password, use passwd and then confirm old, create new, easy!
+-Funny, I dreamed about cli between the 3 VMs I have running on my pc lol
+-and I woke up knowing I'll need to do a deep dive into firewalld today

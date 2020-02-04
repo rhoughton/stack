@@ -1,0 +1,4 @@
+Here is what I learned about iptables:
+-firewalld is a thing lol
+-to see the settings 'iptables -L' some ppl like -nL
+-

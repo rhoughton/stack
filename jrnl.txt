@@ -34,3 +34,4 @@ confusing themselves.
 -also changed my password, use passwd and then confirm old, create new, easy!
 -Funny, I dreamed about cli between the 3 VMs I have running on my pc lol
 -and I woke up knowing I'll need to do a deep dive into firewalld today
+-interesting! if you cat /proc/cpuinfo or lscpu you get cpu info but two different versions of similar thingsP

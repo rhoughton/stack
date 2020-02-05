@@ -1,0 +1,39 @@
+2.3.20
+Just a historical record keeping and reflection of my journey through the stack exchange forums.
+Each day will be different, so will be identified next to the date.
+Today, I'm testing the ability to journal within emacs, while managing file navigation and git.
+I did spend the morning:
+-troubleshooting ncat on CentOS, Ubuntu, and PopOS via VirtualBox
+-answering a question about the need to attach an iso file to Connector: IDE
+-learning about boot code in an iso file, and the corresponding folders/files/drivers/executables
+-7 Zip will allow you to extract those files form an iso "image"
+-yesterday I answered questions on U&L about grub, and provided the ever important
+"how to exit vi" information: https://unix.stackexchange.com/questions/549384/grub-bootloader-not-loading/565425#565425
+-exit vi esc, :wq or q! to not save (probably for a config file read/change mind)
+-test to see different
+Wow I need a breath  of fresh air, big findings now @ 1:45PM
+-iptables blocked my nc requests, I discovered this by creating 2 Cent VMs and trying to connect.
+-3rd sent tried to nc to 2nd Cent but recieved the msg "No route" which gave me something to ggl
+-then discoverd via U&L stack, iptables were the culprit, and before with Pop & Ubu they were
+just being plain dropped! No polite ICMP msg lol
+-now before changing iptable rules I thought I'd get 3rd Cent to nmap 2nd just to see.
+-I accidentily created a redundant folder, so when through the painstaking process of
+navigating up the directory: cd ~/Documents/Emacs then mv (because rn didn't work, rename?)
+so I mv old new directory.
+-however, the trick was here in saving the file I once had in the old repositiory I had to c-x c-w
+meaning write, and overwrite the existing file which was fine b/c it was the same data plus new
+entries here.
+-one of my learned assumptions today: by moving the iso file to another folder, my old vm
+that relied on the file STILL worked! Then the new vm worked, yet couldn't accept the old file
+path? That's ...buggy? Should I fix that? It's all about the "state" I think of the iso file
+though that doesn't change! So it must not be a bug it's intended to keep the user from
+confusing themselves.
+2/4/20
+-use sudo apt install speedtest-cli for a quick command line check of your internet speed
+-day 1 speedtest output: 16Mbits down 8am
+-also changed my password, use passwd and then confirm old, create new, easy!
+-Funny, I dreamed about cli between the 3 VMs I have running on my pc lol
+-and I woke up knowing I'll need to do a deep dive into firewalld today
+-interesting! if you cat /proc/cpuinfo or lscpu you get cpu info but two different versions of similar thingsP
+
+

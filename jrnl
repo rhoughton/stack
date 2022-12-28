@@ -1,2 +1,0 @@
-The take away learning moment here, if you creat a file and specify the type, in my case jrnl.txt, when you c-x c-f it, you have to specify again or you get a duplicate file like this! Gr.
-What is the default file type for emacs? This is a good file to keep just to remember this lesson! 

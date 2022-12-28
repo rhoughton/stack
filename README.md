@@ -1,2 +1,1 @@
-# stack
-a collection of useful stack exchange q&amp;a with code examples.
+I do not recommend using Stack Exchange sites, there has to be better less toxic places to learn. 
